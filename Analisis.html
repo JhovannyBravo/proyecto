@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maestros - Productos</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/productos.css">
+  <link rel="stylesheet" href="assets/css/estilonavyfotter.css">
+</head>
+
+<header>
+  <div class="container Menu">
+    <div class="row">
+      <div class="col-md-3 col-lg-4 logo">
+        <img src="assets/img/logo.png" alt="">
+      </div>
+      <div class="col-md-9 col-lg-8">
+        <div class="d-flex justify-content-center">Soporte: <b>+57 3223700</b></div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center align-content-center ">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav listaMenu">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Maestros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="Usuarios1.html">Usuarios</a></li>
+              <li><a class="dropdown-item" href="productos1.html">Productos</a></li>
+            </ul>
+          <li class="nav-item" >
+            <a class="nav-link table-active" href="Analisis.html"  style="background-color: orange;">Analisis</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Acerca</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactenos.html">Contactenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body class="body">
+  <div class="card m-5 pt-1">
+    <h2 class="titulo shadow"> Estimación tiempo de vida util</h2>
+    <form class=" row m-5">
+      <div class="col-4 ">
+        <label for="validationDefault01" class="form-label">Estudio</label>
+        <input type="text" class="form-control" id="validationDefault01" required>
+      </div>
+      <div class="col-4">
+        <label for="validationDefault02" class="form-label">dd/mm/aaaa</label>
+        <input type="date" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+      <div class="col-4">
+        <label for="validationDefault01" class="form-label"></label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Producto</label>
+        <div class="input-group">
+          <input type="text" class="form-control" required>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Presentación</label>
+        <div class="input-group">
+          <input type="text" class="form-control" required>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Empaque primario</label>
+        <div class="input-group">
+          <input type="text" class="form-control" required>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault03" class="form-label">Empaque secundario</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">Motivo de estudio</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-1" id="muestra">
+        <label for="validationDefault05" class="form-label muestra">Muestra</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-md-1 condicion">
+        <label for="validationDefault05" class="form-label condicion">Condiciones</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-md-1" id="muestreo">
+        <label for="validationDefault05" class="form-label muestreo">Muestreos</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-md-1 lote">
+        <label for="validationDefault05" class="form-label lotes">Lotes</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-md-12 ">
+        <label for="validationDefault05" class="form-label">Adicionales, Observaciones y conclusiones</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      <div class="col-12 g-4">
+        <button class="btn btn-primary guardar" type="submit">Guardar</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="container copyright p-5">
+      <div class="row">
+        <div class="col text-center">
+          Copyright BIT.&copy; 2022. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

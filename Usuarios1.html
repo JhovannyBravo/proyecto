@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Maestros - Componentes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Your description">
+	<meta name="keywords" content="Your keywords">
+	<meta name="author" content="Your name">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/css/estiloProyecto.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/estilonavyfotter.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="body">
+	<div class="bg_center">
+		<div class="container">
+			<div class="row">
+				<div class="span7">
+					<div class="clearfix">
+						<div class="clearfix header-block-pad">
+							<a href="index.html"><img src="images/logo.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container Menu">
+			<div class="row">
+				<div class="col-md-3 col-lg-4">
+					<img src="assets/img/logo.png" alt="">
+				</div>
+				<div class="col-md-9 col-lg-8">
+					<div class="d-flex justify-content-center">Soporte: <b>+57 3223700</b></div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center align-content-center ">
+			<div class="container">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav listaMenu">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="home.html">Inicio</a>
+						</li>
+
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false" style="background-color: orange;">
+								Maestros
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="Usuarios1.html">Usuarios</a></li>
+								<li><a class="dropdown-item" href="productos1.html">Productos</a></li>
+							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="Analisis.html">Analisis</a>
+						</li>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="nosotros.html">Acerca</a>
+						</li>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactenos.html">Contactenos</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		</header>
+
+	</div> <br>
+	
+	<div class="container accordion-item">
+		<div class="text-center m-3"><h1>Usuarios</h1></div>
+		<form class="row g-3 needs-validation" novalidate>
+			<div class="col-md-4 position-relative">
+				<label for="validationDefault01" class="form-label">Identificación</label>
+				<input type="text" class="form-control" id="validationTooltip01" value="" required>
+				<div class="valid-tooltip">
+					Looks good!
+				</div>
+			</div>
+			<div class="col-md-4 position-relative">
+				<label for="validationDefault02" class="form-label">Contraseñas</label>
+				<input type="password" class="form-control" id="validationTooltip02" value="" required>
+				<div class="valid-tooltip">
+					Looks good!
+				</div>
+			</div>
+			<div class="col-md-3 position-relative">
+				<label for="validationTooltip05" class="form-label">Verificación</label>
+				<input type="text" class="form-control" id="validationTooltip05" required>
+				<div class="invalid-tooltip">
+					Please provide a valid zip.
+				</div>
+			</div>
+			<div class="col-md-6 position-relative">
+				<label for="validationTooltip03" class="form-label">Observaciones</label>
+				<input type="text" class="form-control" id="validationTooltip03" required>
+				<div class="invalid-tooltip">
+					Please provide a valid city.
+				</div> <br>
+				<div>
+					<div class="dropdown">
+						<a class="btn btn-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Dropdown link
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Alto</a></li>
+							<li><a class="dropdown-item" href="#">Bajo</a></li>
+						</ul>
+					</div>
+				</div>
+		</form>
+	</div> <br>
+	<div class="container">
+		<div class="d-flex justify-content-center align-items-center">
+			<div class="card p-5">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+					<label class="form-check-label" for="flexCheckDefault">
+						Default checkbox
+					</label>
+				</div>
+				<div class="form-check ">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+					<label class="form-check-label" for="flexCheckDefault">
+						Default checkbox
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+					<label class="form-check-label" for="flexCheckChecked">
+						Checked checkbox
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+					<label class="form-check-label" for="flexCheckDefault">
+						Default checkbox
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+					<label class="form-check-label" for="flexCheckChecked">
+						Checked checkbox
+					</label>
+				</div>
+			</div>
+		</div><br>
+		<div class="row">
+			<button class="btn btn-primary" type="submit">Submit form</button>
+		</div> <br>
+
+		<div class="container copyright d-flex justify-content-center align-content-center">
+			<div class="row">
+				<div class="span12">
+					Copyright BIT.&copy; 2013. All rights reserved.
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

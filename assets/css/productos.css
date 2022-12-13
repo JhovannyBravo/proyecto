@@ -1,0 +1,28 @@
+
+.card {
+    background-color: #d0d0d0;
+    width: 95%;
+    font-size: 25px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+.muestra{
+    font-size: 20px;
+}
+.condicion{
+    font-size: 20px;
+}
+.muestreo{
+    font-size: 20px;
+}
+.lotes{
+    font-size: 20px;
+}
+
+.guardar {
+    font-size: 30px;
+}
